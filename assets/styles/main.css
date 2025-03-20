@@ -115,10 +115,10 @@ object {
   right: 15px;
 }
 
-.sidebar button:active {
-  background: rgb(109, 14, 109);
-  font-weight: bold;
+.sidebar {
+  display: none !important; /* Force hide the sidebar */
 }
+
 
 /* fortuneInputBox */
 .fortuneInputBox {

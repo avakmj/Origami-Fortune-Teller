@@ -8,16 +8,16 @@
     },
     "devDependencies": {
         "@babel/core": "^7.22.1",
-        "@babel/preset-env": "^7.22.4",
+        "@babel/preset-env": "^7.26.9",
         "@babel/preset-modules": "^0.1.5",
         "babel-jest": "^29.5.0",
-        "eslint": "^8.41.0",
+        "eslint": "^8.57.1",
         "eslint-config-google": "^0.14.0",
         "eslint-plugin-html": "^7.1.0",
-        "jest": "^29.5.0",
+        "jest": "^29.7.0",
         "jest-environment-jsdom": "^29.5.0",
         "jest-puppeteer": "^9.0.0",
-        "puppeteer": "^20.5.0"
+        "puppeteer": "^24.4.0"
     },
     "jest": {
         "preset": "jest-puppeteer",
@@ -34,7 +34,15 @@
         "ts-jest": "^29.1.0"
     },
     "babel": {
-        "presets": ["@babel/preset-env", "@babel/preset-modules"]
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-modules"
+        ]
     },
-    "jsdoc": "^4.0.2"
+    "jsdoc": "^4.0.2",
+    "description": "[![Maintainability](https://api.codeclimate.com/v1/badges/87b8f7eb41b26501a38a/maintainability)](https://codeclimate.com/github/cse110-sp23-group1/Origami-Fortune-Teller/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/87b8f7eb41b26501a38a/test_coverage)](https://codeclimate.com/github/cse110-sp23-group1/Origami-Fortune-Teller/test_coverage) # Origami-Fortune-Teller",
+    "main": "jest-puppeteer.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }

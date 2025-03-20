@@ -1,14 +1,14 @@
 export const fortunes = {
   'english': {
     'default': [
-      'Outlook not so good',
-      'Signs point to yes',
-      'Cannot predict now',
-      'Reply hazy, try again later',
-      'It is certain',
-      'Don\'t Count on it',
-      'Better not tell you now',
-      'As I see it, yes',
+      'Lost and popcorn',
+      'Cooking together',
+      'Police sketch artist game and cocktails',
+      'Reading together and spa night',
+      'Chess and online card games',
+      'Gamer timeee',
+      'Arts and crafts night',
+      'Favorite childhood movie night',
     ],
   },
 };
